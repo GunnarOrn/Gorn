@@ -36,12 +36,22 @@
             <div class="container">
                 <article class="box post">
                     <a href="#" class="image featured"><img src="images/419500302_345540598326464_449078214180059620_n.jpg" alt="Image Description"></a>
-                    <header>
-                        <h2>Verkefni 3</h2>
-                    </header>
+                    <center>
+                        <header>
+                            <h2>Verkefni 3</h2>
+                        </header>
+                    </center>
                     <section>
                         <header>
+                            <h2>Inngangur</h2>
+                        </header>
+                        <p>
+                            Þetta verkefni er þrískipt.  Í byrjun á að hanna módel fyrir 3D prentun sem ekki er hægt að framkvæma með frádráttar framleiðslu. Hluturinn má ekki vera meira en 100gr af plasti.  Síðan á að 3D skanna einhvern hlut og síðast er hópaverkefni sem við eigum að velja 3D prentara og ákvarða hönnunarreglur/þvinganir.  t.d. hvenær er þörf fyrir stuðning, prentunar átt, yfirborðs gæði, infylli. 
+                        </p>
+                        <header>
                             <h2>3D Prentun</h2>
+                        </header>
+                        <header>
                             <h3>Hugmyndavinna</h3>
                         </header>
                         <p>
@@ -64,46 +74,101 @@
                             <h3>Hugbúnaðarvinna</h3>
                         </header>
                         <p>
-                            Byrjaði á því að henda klónni inn í Fusion og hugsaði hvernig væri best að gera þetta.  Það sem ég gerði er að extrudea kassa út úr fingurnum og skar síðan út hring svo hann myndi passa mjög vel í kringum vínglas.  en ég ákvað að láta hringin minnka örlitið því ofar sem hann fer.  Það var gert vegna þess við mælingu virtist fóturinn á glasinu minnka smá á leiðnni upp fótinn.  Hér fyrir neðan er mynd af uppfærslunni í Fusion
+                            ég Byrjaði á því að henda klónni inn í Fusion og hugsaði hvernig væri best að gera þetta.  Það sem ég gerði er að extrudea kassa út úrfingurnum um 6mm og skar síðan út hring svo hann myndi passa mjög vel í kringum vínglas.  Ég ákvað að láta hringin minnka örlitið því ofar sem hann fer.  Það var gert vegna þess við mælingu virtist fóturinn á glasinu minnka smá á leiðnni upp fótinn.  Þannig gripklóinn var kominn með hring sem var 11-12mm á þvermál sem átti að ná þæginlega í kringum glasið.  Hér fyrir neðan er mynd af uppfærslunni í Fusion.
                         </p>
                         <div class="center">
                             <img src="images/Uppfaersla%201.png" alt="Image Description" width="50%" height="50%">
                         </div>
                         <p>
-                            Næsti partur er að reyna festa klónna á annan mótor.  Það þurfti aðeins meiri hugsun hér.  Þessi kló fer á annan stærri og öflugari Servo.  
+                            Næsti partur er að reyna festa klónna á annan mótor.  Það þurfti aðeins meiri hugsun hér.  Þessi kló fer á annan stærri og öflugari Servo sem snýr klónni upp eða niður.  Gott væri að minnast á að flestir íhlutirnir úr klónni eru haldnir saman með skrúfum.  En hér fyrir neðan er mynd af aftasta partinum á klónni og þurfti ég að finna út hvernig væri best að festa næsta íhlut við.    
                         </p>
+                        <div class="center">
+                            <img src="images/Kloaftast.png" alt="Image Description" width="30%" height="30%">
+                        </div>
+                        <p>
+                            holurnar í hornunum fjórum eru nú þegar notaðar til að festa klónna saman þannig ég hef þessar holur í miðjunni til að festa við næsta íhlut sem ég er að hanna.  Þannig ég byrjaði á því að búa til kassa  sem hægt var að skrúfa fastan í.  Síðan bætti ég við beygju og holu sem átti að passa utan um mótorinn.  Mótorinn sneri sexhyrningi þar hliðarlengdirnar eru sirka 6.87mm svo ég teiknaði það fyrir ágætis pressfit.  Hér fyrir neðan eru tvær myndir af ferlinu.
+                        </p>
+                        <div class="center">
+                            <img src="images/Byrjun.png" alt="Image Description" width="30%" height="30%">
+                        </div>
+                        <div class="center">
+                            <img src="images/Aukahlutur.png" alt="Image Description" width="30%" height="30%">
+                        </div>
+                        
                     </section>
                     <section>
                         <p>
-                            <!-- Your content goes here -->
+                            Þá er hægt að byrja prentun á þessum tveim hlutum og klónni.  Ég byrjaði á að savea skránna sem STL skrá og setja inn í Prusa slicer og leggja hlutinn niður á planið og ýta á slice now til að athuga hvort upp koma villumeldingar um overhang.  Það komu upp engar villumeldingar og því var hægt að byrja prenta þetta.  Hér fyrir neðan er mynd af Prusa slicer.  prentið var 24.67gr samkvæmt slicer
                         </p>
-                        <a href="https://www.youtube.com/watch?v=BT4WzyT2g8k" class="button alt">Starta vefsíðunni (Video)</a>
-                        <!-- More content goes here -->
-                    </section>
-                    <section>
+                        <div class="center">
+                            <img src="images/Prent.png" alt="Image Description" width="50%" height="30%">
+                        </div>
+                        <p>
+                            Síðan stillti ég á réttan filament sem er generic PLA og valdi réttan prentara sem er Original Prusa i3 mks3+ og valdi 0.20mm speed stillingu og 15% infill en setti support everywhere þar sem enginn tími var fyrir mistök.  Þá ýtti ég á export G-code og vistaði kóðan á SD-kort sem var færður yfir í prentaran.  Þá setti ég lím á prentflötin svo hlutirnir myndu ekki fara a fleygji ferð og ýtti síðan á play.  Prentið heppnaðist vel og festi ég klónna strax saman og beint á róbotinn.  Hér er síðan mynd af klónni á róbotinum.
+                        </p>
+                        <div class="center">
+                            <img src="images/kloarboot.png" alt="Image Description" width="50%" height="30%">
+                        </div>
                         <header>
-                            <h2>Myndir</h2>
+                        <h2>3D Skönnun</h2>
                         </header>
-                        <div class="row">
-                            <div class="col-6 col-12-small">
-                                <section class="box">
-                                    <a href="#" class="image featured"><img src="images/Mynd%201.png" alt="Image Description"></a>
-                                    <p>Hér er breytt stillingum til að git finni réttu skrárnar</p>
-                                </section>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <section class="box">
-                                    <a href="#" class="image featured"><img src="images/Mynd%202.png" alt="Image Description"></a>
-                                    <p>Ýtir á þennan takka til að gera síðuna live</p>
-                                </section>
-                            </div>
+                        <p>
+                           Ég kannast lítið við þrívíddarskönnun en eftir smástund á google ákvað ég að niðurhala polycam.  Ég fann bjórdós heima hjá af mínum uppáhalds bjór þannig ákvað ég að skanna eina dós af Tuborg Gron.  Ég unndirbjó skönnunarsvæði á stofuborðinu heima með því að breiða hvít lak yfir það.  Lagði síðan bjórinn á mitt borðið og byrjaði að taka myndir.  Ég tók 101 mynd af dósinni og processaði hana með full detail.  Hér fyrir neðan er mynd af skönnuninni og <a href="https://poly.cam/capture/E6350B87-293A-4BD4-89FE-22C4C483B977">hér er hlekkur svo þú getur skoðað sjálf/ur.</a>.  
+                            <div class="center">
+                            <img src="images/Bjor.png" alt="Image Description" width="50%" height="30%">
                         </div>
                     </section>
                 </article>
             </div>
         </section>
         <section id="footer">
-            <!-- Footer content goes here -->
+            <div class="container">
+				<div class="row">
+				    <div class="col-4 col-6-medium col-12-small">
+				        <section>
+				        </section>
+				    </div>
+				    <div class="col-4 col-6-medium col-12-small">
+				        <section>
+				            <header>
+				                <h2>Hafðu samband</h2>
+				            </header>
+				            <ul class="social">
+				                <li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/gunnarorn.omarsson"><span class="label">Facebook</span></a></li>
+								<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/gunnar-%C3%B6rn-%C3%B3marsson-b3075a262/"><span class="label">LinkedIn</span></a></li>
+									</ul>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<p>
+												Naustabryggja 13<br />
+												Árbær, 111
+											</p>
+										</li>
+										<li>
+											<h3>Mail</h3>
+											<p><a href="#">gunn4rorn@gmail.com</a></p>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<p>(+354) 844-9780</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+
         </section>
     </div>
     <script src="assets/js/jquery.min.js"></script>
